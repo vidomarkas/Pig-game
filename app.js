@@ -85,7 +85,7 @@ btnRoll.addEventListener("click", ()=>{
         diceDOM2.src = 'dice-' + dice2 + '.png'
 
         //update round score if the rolled number was not a 1
-        if (dice1 === 6 && dice2 === 6){
+        if (dice1 === 1 && dice2 === 1){
             scores[activePlayer] = 0;
             document.getElementById('score-' + activePlayer).textContent = '0';
             switchPlayer();
